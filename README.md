@@ -1,13 +1,13 @@
 Experimental
 ---
 
-# PaternMatchify.js
+# PatternMatchify.js
 
 Pattern matching like Scala with Refrect/Proxy API.
 
 ```javascript
-import matchify from './paternMatchify';
-import {TYPES} from './paternMatchify';
+import matchify from './patternMatchify';
+import {TYPES} from './patternMatchify';
 
 let obj = {a: 1};
 let result1 = matchify(obj).a.match({
